@@ -1,0 +1,5419 @@
+
+ Time 0 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |     0 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |     0 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 55 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |     0 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 55 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |     0 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   506 |     0 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 112 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   449 |     0 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 213 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   402 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   348 |     0 |     0 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 213 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   402 |     0 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   348 |     0 |     0 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 270 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   345 |     0 |     0 |   503 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   291 |     0 |     0 |   449 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 304 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   311 |     0 |     0 |   469 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   257 |     0 |     0 |   415 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 358 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   257 |     0 |     0 |   415 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   203 |   506 |     0 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 358 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   257 |   560 |     0 |   415 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   203 |   506 |     0 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 415 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   200 |   503 |     0 |   358 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   146 |   449 |     0 |   304 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 436 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   179 |   482 |     0 |   337 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   125 |   428 |     0 |   283 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 483 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   132 |   435 |     0 |   290 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    78 |   381 |     0 |   236 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 504 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   111 |   414 |     0 |   269 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    57 |   360 |     0 |   215 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 539 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    76 |   379 |     0 |   234 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    22 |   325 |     0 |   180 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 573 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    42 |   345 |     0 |   200 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   291 |     0 |   146 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 627 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   291 |     0 |   146 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   237 |   506 |    92 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 715 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   203 |     0 |    58 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   149 |   418 |     4 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 816 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   102 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   405 |    48 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 873 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |    45 |     0 |   503 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   348 |     0 |   260 |   449 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 907 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |    11 |     0 |   469 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   314 |     0 |   226 |   415 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 961 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |     0 |     0 |   415 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   506 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 995 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |     0 |     0 |   381 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   472 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 996 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |     0 |     0 |   380 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   225 |   471 |   137 |   326 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 997 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |     0 |     0 |   379 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   224 |   470 |   136 |   325 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1044 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |     0 |     0 |   332 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   177 |   423 |    89 |   278 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1102 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   502 |     0 |     0 |   274 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   119 |   365 |    31 |   220 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1190 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   414 |     0 |   560 |   186 |
+ \   >   \   >   \   ^   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Busy              |
+ |    31 |   277 |   506 |   132 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1247 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   357 |     0 |   503 |   129 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   220 |   449 |    75 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1335 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   269 |     0 |   415 |    41 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   132 |   361 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1382 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   222 |     0 |   368 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |    85 |   314 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1416 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   188 |     0 |   334 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   425 |    51 |   280 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1416 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   188 |   560 |   334 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   425 |    51 |   280 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1527 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    77 |   449 |   223 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   314 |   506 |   169 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1615 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   361 |   135 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   418 |    81 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1662 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   314 |    88 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   179 |   371 |    34 |   459 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1719 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   257 |    31 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   122 |   314 |     0 |   402 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1807 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   169 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    34 |   226 |   506 |   314 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1828 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   394 |   148 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    13 |   205 |   485 |   293 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1862 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   360 |   114 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   171 |   451 |   259 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1937 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   285 |    39 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |    96 |   376 |   184 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 1984 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   238 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |    49 |   329 |   137 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2005 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   217 |     0 |   560 |     0 |
+ \   >   \   >   \   ^   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Busy              |
+ |   438 |    28 |   308 |   116 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2062 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   160 |     0 |   503 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   381 |     0 |   251 |    59 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2096 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   126 |     0 |   469 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   347 |     0 |   217 |    25 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2171 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    51 |     0 |   394 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   272 |   506 |   142 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2171 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    51 |   560 |   394 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   272 |   506 |   142 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2228 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   503 |   337 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   215 |   449 |    85 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2262 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   469 |   303 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   181 |   415 |    51 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2309 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |   256 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   134 |   368 |     4 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2366 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |   199 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    77 |   311 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2454 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |   111 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   223 |   506 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2542 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |    23 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2643 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    88 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    34 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2732 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   137 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   316 |   506 |   228 |   417 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2789 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    80 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   259 |   449 |   171 |   360 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2823 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    46 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   225 |   415 |   137 |   326 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2870 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   368 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2927 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   311 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 2961 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   469 |   331 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |    87 |   277 |     0 |   188 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3015 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   223 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3103 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3204 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    88 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    34 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3238 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |    54 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |     0 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3293 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   137 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   316 |   506 |   228 |   417 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3350 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    80 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   259 |   449 |   171 |   360 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3384 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    46 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   225 |   415 |   137 |   326 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3431 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   422 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   178 |   368 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3431 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   368 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3488 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   311 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3576 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   223 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3664 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3765 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    88 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    34 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3786 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   205 |    67 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   384 |    13 |   296 |   485 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3820 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   171 |    33 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   350 |     0 |   262 |   451 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3841 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   150 |    12 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   329 |     0 |   241 |   430 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3895 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    96 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   275 |   506 |   187 |   376 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3895 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    96 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   275 |   506 |   187 |   376 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3952 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    39 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   218 |   449 |   130 |   319 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 3986 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     5 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   184 |   415 |    96 |   285 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4033 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   137 |   368 |    49 |   238 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4090 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    80 |   311 |     0 |   181 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4124 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   469 |   331 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |    46 |   277 |     0 |   147 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4178 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   223 |   506 |    93 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4212 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   381 |   243 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   189 |   472 |    59 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4267 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   326 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   505 |   134 |   417 |     4 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4368 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   225 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   404 |    33 |   316 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4456 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   137 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   316 |   506 |   228 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4513 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    80 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   259 |   449 |   171 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4547 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    46 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   225 |   415 |   137 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4594 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   368 |    90 |   280 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4651 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   311 |    33 |   223 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4739 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   223 |   506 |   135 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4827 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |    47 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4861 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   293 |   155 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   472 |   101 |   384 |    13 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4882 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   272 |   134 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   451 |    80 |   363 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4936 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   218 |    80 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   397 |    26 |   309 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 4970 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   184 |    46 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   363 |     0 |   275 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5024 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   130 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   309 |   506 |   221 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5024 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   130 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   309 |   506 |   221 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5081 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    73 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   252 |   449 |   164 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5082 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    72 |   502 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   251 |   448 |   163 |   360 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5116 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    38 |   468 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   217 |   414 |   129 |   326 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5116 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    38 |   468 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   217 |   414 |   129 |   326 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5173 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   411 |     0 |   503 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   160 |   357 |    72 |   269 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5194 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   390 |     0 |   482 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   139 |   336 |    51 |   248 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5228 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   356 |     0 |   448 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   105 |   302 |    17 |   214 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5228 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   356 |     0 |   448 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   105 |   302 |    17 |   214 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5285 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   299 |     0 |   391 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    48 |   245 |     0 |   157 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5319 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   469 |   265 |     0 |   357 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    14 |   211 |     0 |   123 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5407 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   381 |   177 |     0 |   269 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   123 |     0 |    35 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5508 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   280 |    76 |     0 |   168 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    22 |     0 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5583 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   205 |     1 |     0 |    93 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   330 |     0 |   506 |   431 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5604 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   184 |     0 |     0 |    72 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   309 |     0 |   485 |   410 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5638 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   150 |     0 |     0 |    38 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   275 |     0 |   451 |   376 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5692 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    96 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   221 |   506 |   397 |   322 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5726 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    62 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   187 |   472 |   363 |   288 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5726 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    62 |     0 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   187 |   472 |   363 |   288 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5783 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     5 |     0 |     0 |   503 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   130 |   415 |   306 |   231 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5830 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |     0 |     0 |   456 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |    83 |   368 |   259 |   184 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5830 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |     0 |     0 |   456 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |    83 |   368 |   259 |   184 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5887 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |     0 |     0 |   399 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    26 |   311 |   202 |   127 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 5921 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   469 |     0 |     0 |   365 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   277 |   168 |    93 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6009 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   381 |     0 |     0 |   277 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   189 |    80 |     5 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6056 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   334 |     0 |     0 |   230 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |   142 |    33 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6110 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   280 |     0 |     0 |   176 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    88 |     0 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6134 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   256 |     0 |     0 |   152 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   381 |    64 |     0 |   482 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6149 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   241 |     0 |     0 |   137 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   366 |    49 |     0 |   467 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6170 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   220 |     0 |     0 |   116 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   345 |    28 |     0 |   446 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6224 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   166 |     0 |     0 |    62 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   291 |     0 |   506 |   392 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6245 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   145 |     0 |     0 |    41 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   270 |     0 |   485 |   371 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6299 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    91 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   216 |   506 |   431 |   317 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6299 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    91 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   216 |   506 |   431 |   317 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6356 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    34 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   159 |   449 |   374 |   260 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6391 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   468 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   124 |   414 |   339 |   225 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6391 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   468 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   124 |   414 |   339 |   225 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6448 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   411 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    67 |   357 |   282 |   168 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6482 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   469 |   377 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   323 |   248 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6516 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   435 |   343 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   289 |   214 |   100 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6550 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   401 |   309 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   255 |   180 |    66 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6638 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   313 |   221 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   167 |    92 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6739 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   212 |   120 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   405 |    66 |     0 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6796 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   155 |    63 |     0 |   503 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   348 |     9 |     0 |   449 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6830 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   121 |    29 |     0 |   469 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   314 |     0 |     0 |   415 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6884 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    67 |     0 |     0 |   415 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   506 |     0 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6884 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    67 |   560 |     0 |   415 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   260 |   506 |     0 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6941 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    10 |   503 |     0 |   358 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   203 |   449 |     0 |   304 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6945 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     6 |   499 |     0 |   354 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   199 |   445 |     0 |   300 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 6979 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   465 |     0 |   320 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   165 |   411 |     0 |   266 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7026 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   418 |     0 |   273 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   118 |   364 |     0 |   219 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7083 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   361 |     0 |   216 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    61 |   307 |     0 |   162 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7171 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   273 |     0 |   128 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   219 |   506 |    74 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7259 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   185 |     0 |    40 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   131 |   418 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7360 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    84 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    30 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7394 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |    50 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |     0 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7428 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   158 |    16 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   337 |     0 |   249 |   438 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7516 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    70 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   249 |   506 |   161 |   350 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7516 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    70 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   249 |   506 |   161 |   350 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7573 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    13 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   192 |   449 |   104 |   293 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7594 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   482 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   171 |   428 |    83 |   272 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7594 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   482 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   171 |   428 |    83 |   272 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7651 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   425 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   114 |   371 |    26 |   215 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7739 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   337 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    26 |   283 |   506 |   127 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7773 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   381 |   303 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   249 |   472 |    93 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7807 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   347 |   269 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   215 |   438 |    59 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7841 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   313 |   235 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   181 |   404 |    25 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7895 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   259 |   181 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   127 |   350 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 7996 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   158 |    80 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    26 |   249 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8030 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   124 |    46 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |     0 |   215 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8084 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    70 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   317 |   506 |   161 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8084 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    70 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   161 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8141 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    13 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   104 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8175 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |    70 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8222 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   422 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   179 |   368 |    23 |   280 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8222 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   179 |   368 |    23 |   280 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8279 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   122 |   311 |     0 |   223 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8367 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    34 |   223 |   506 |   135 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8401 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   381 |   243 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   189 |   472 |   101 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8456 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   326 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   417 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8557 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   225 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   316 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8645 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   137 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   228 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8702 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    80 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   171 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8736 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    46 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   137 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8783 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   179 |   368 |    90 |   280 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8840 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   122 |   311 |    33 |   223 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 8928 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    34 |   223 |   506 |   135 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9017 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   326 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   417 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9118 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   225 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   316 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9206 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   137 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   228 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9263 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    80 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   171 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9297 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    46 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   137 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9344 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   179 |   368 |    90 |   280 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9402 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   502 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    32 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9490 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   414 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9511 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   393 |   255 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    12 |   201 |   485 |   113 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9613 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   291 |   153 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   505 |    99 |   383 |    11 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9714 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   190 |    52 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   404 |     0 |   282 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9748 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   156 |    18 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   370 |     0 |   248 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9802 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   102 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   316 |   506 |   194 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9802 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   102 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   316 |   506 |   194 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9859 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    45 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   259 |   449 |   137 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9893 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    11 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   225 |   415 |   103 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9940 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   422 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   178 |   368 |    56 |   280 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9940 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   368 |    56 |   280 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 9997 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   311 |     0 |   223 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10085 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   223 |   506 |   135 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10173 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |    47 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10220 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   280 |   142 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   459 |    88 |   371 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10277 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   223 |    85 |     0 |   503 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   402 |    31 |   314 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10365 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   135 |   560 |     0 |   415 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   314 |   506 |   226 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10422 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    78 |   503 |     0 |   358 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   257 |   449 |   169 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10456 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    44 |   469 |     0 |   324 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   223 |   415 |   135 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10503 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |   277 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   176 |   368 |    88 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10560 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |   220 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   119 |   311 |    31 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10648 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |   132 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    31 |   223 |   506 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10736 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |     0 |    44 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10783 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   280 |   142 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |    88 |   371 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10837 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    88 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    34 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10926 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   137 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   316 |   506 |   228 |   417 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 10983 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    80 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   259 |   449 |   171 |   360 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11017 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    46 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   225 |   415 |   137 |   326 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11051 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    12 |   435 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   191 |   381 |   103 |   292 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11072 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   414 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   170 |   360 |    82 |   271 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11072 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   414 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   170 |   360 |    82 |   271 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11129 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   357 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   113 |   303 |    25 |   214 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11217 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   269 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    25 |   215 |   506 |   126 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11251 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   381 |   235 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   181 |   472 |    92 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11305 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   181 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   127 |   418 |    38 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11406 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    80 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    26 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11440 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |    46 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |     0 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11494 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11494 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11551 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11585 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11633 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11690 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11778 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11866 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 11967 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12001 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |    53 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |     0 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12055 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12112 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12146 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12194 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12251 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12339 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12427 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12528 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12616 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12616 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12673 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12707 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12755 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12812 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12846 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   469 |   330 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |    87 |   276 |     0 |   188 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12900 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 12988 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13089 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13123 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |    53 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |     0 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13177 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13234 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13268 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13316 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13373 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13461 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13495 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   381 |   242 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   188 |   472 |   100 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13549 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13650 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13738 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13795 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13829 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13877 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   421 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13877 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 13934 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14022 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14110 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14157 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   280 |   141 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |    87 |   371 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14211 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14299 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14356 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14390 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14424 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    13 |   435 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   192 |   381 |   104 |   293 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14445 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   414 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   171 |   360 |    83 |   272 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14445 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   414 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   171 |   360 |    83 |   272 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14502 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   357 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   114 |   303 |    26 |   215 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14590 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   269 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    26 |   215 |   506 |   127 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14678 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   181 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   127 |   418 |    39 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14779 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    80 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    26 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14813 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |    46 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |     0 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14867 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14867 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14924 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 14958 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15006 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15063 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15151 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15239 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15340 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15428 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15485 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15519 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15567 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15624 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15712 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15800 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15901 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15935 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |    53 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |     0 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 15989 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16046 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16080 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16128 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16185 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16273 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16361 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16462 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16496 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |    53 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |     0 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16550 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16607 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16641 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16688 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   422 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   179 |   368 |    91 |   280 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16689 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16746 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16834 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 16922 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17023 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17111 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17168 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17202 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17250 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17307 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17395 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17429 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   381 |   242 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   188 |   472 |   100 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17483 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17584 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    33 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17672 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   138 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   229 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17729 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   449 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17763 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   415 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17811 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   421 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17811 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   421 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   367 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17868 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   364 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   310 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17902 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   469 |   330 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |    87 |   276 |     0 |   188 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 17956 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   276 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   222 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18044 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   188 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18045 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   326 |   187 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   505 |   133 |   417 |    45 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18079 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   292 |   153 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   471 |    99 |   383 |    11 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18100 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   271 |   132 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   450 |    78 |   362 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18154 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   217 |    78 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   396 |    24 |   308 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18188 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   183 |    44 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   362 |     0 |   274 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18242 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   129 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   308 |   506 |   220 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18242 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   129 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   308 |   506 |   220 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18299 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    72 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   251 |   449 |   163 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18333 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    38 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   217 |   415 |   129 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18380 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   170 |   368 |    82 |   280 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18437 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   113 |   311 |    25 |   223 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18525 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    25 |   223 |   506 |   135 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18613 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |    47 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18634 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   306 |   168 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   485 |   114 |   397 |    26 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18668 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   272 |   134 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   451 |    80 |   363 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18722 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   218 |    80 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   397 |    26 |   309 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18756 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   184 |    46 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   363 |     0 |   275 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18810 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   130 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   309 |   506 |   221 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18867 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    73 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   252 |   449 |   164 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18901 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    39 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   218 |   415 |   130 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 18948 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   171 |   368 |    83 |   280 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19005 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   114 |   311 |    26 |   223 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19093 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    26 |   223 |   506 |   135 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19181 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |    47 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19228 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   280 |   142 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   459 |    88 |   371 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19285 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   223 |    85 |     0 |   503 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   402 |    31 |   314 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19373 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   135 |   560 |     0 |   415 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   314 |   506 |   226 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19430 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    78 |   503 |     0 |   358 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   257 |   449 |   169 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19464 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    44 |   469 |     0 |   324 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   223 |   415 |   135 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19511 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |   277 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   176 |   368 |    88 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19568 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |   220 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   119 |   311 |    31 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19656 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |   132 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    31 |   223 |   506 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19744 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |     0 |    44 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19845 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    88 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    34 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19845 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    88 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   405 |    34 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19902 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   169 |    31 |     0 |   503 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   348 |     0 |   260 |   449 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 19990 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |     0 |     0 |   415 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   506 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20024 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |     0 |     0 |   381 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   472 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20072 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |     0 |     0 |   333 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   424 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20129 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |     0 |     0 |   276 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   367 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20217 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |     0 |   560 |   188 |
+ \   >   \   >   \   ^   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Busy              |
+ |    33 |   279 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20274 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   358 |     0 |   503 |   131 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   222 |   449 |    77 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20362 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   270 |     0 |   415 |    43 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   134 |   361 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20409 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   223 |     0 |   368 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |    87 |   314 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20443 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   189 |     0 |   334 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   425 |    53 |   280 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20443 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   189 |   560 |   334 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   425 |    53 |   280 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20554 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    78 |   449 |   223 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   314 |   506 |   169 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20642 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   361 |   135 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   418 |    81 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20689 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   314 |    88 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   179 |   371 |    34 |   459 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20746 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   257 |    31 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   122 |   314 |     0 |   402 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20834 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   169 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    34 |   226 |   506 |   314 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20855 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   394 |   148 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    13 |   205 |   485 |   293 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20889 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   360 |   114 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   171 |   451 |   259 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 20964 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   285 |    39 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |    96 |   376 |   184 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21011 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   238 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |    49 |   329 |   137 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21032 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   217 |     0 |   560 |     0 |
+ \   >   \   >   \   ^   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Busy              |
+ |   438 |    28 |   308 |   116 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21089 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   160 |     0 |   503 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   381 |     0 |   251 |    59 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21110 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   139 |     0 |   482 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   360 |     0 |   230 |    38 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21164 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    85 |     0 |   428 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   306 |   506 |   176 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21164 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    85 |   560 |   428 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   306 |   506 |   176 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21221 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    28 |   503 |   371 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   249 |   449 |   119 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21255 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   469 |   337 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   215 |   415 |    85 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21302 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   422 |   290 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   168 |   368 |    38 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21302 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |   290 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   168 |   368 |    38 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21359 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |   233 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   111 |   311 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21381 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   481 |   343 |   211 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    89 |   289 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21402 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   460 |   322 |   190 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    68 |   268 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21436 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   426 |   288 |   156 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    34 |   234 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21525 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   337 |   199 |    67 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   145 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21572 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   290 |   152 |    20 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |    98 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21626 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   236 |    98 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    44 |     0 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21626 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   236 |    98 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   405 |    44 |     0 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21683 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   179 |    41 |     0 |   503 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   348 |     0 |     0 |   449 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21717 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   145 |     7 |     0 |   469 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   314 |     0 |     0 |   415 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21738 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   124 |     0 |     0 |   448 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   293 |     0 |     0 |   394 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21813 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    49 |     0 |     0 |   373 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   218 |   506 |     0 |   319 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21813 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    49 |   560 |     0 |   373 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   218 |   506 |     0 |   319 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21870 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   503 |     0 |   316 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   161 |   449 |     0 |   262 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21904 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   469 |     0 |   282 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   127 |   415 |     0 |   228 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21951 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   422 |     0 |   235 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |    80 |   368 |     0 |   181 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 21951 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |   235 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |    80 |   368 |     0 |   181 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22019 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   492 |   354 |     0 |   167 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |    12 |   300 |     0 |   113 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22086 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   425 |   287 |     0 |   100 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   233 |     0 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22133 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   378 |   240 |     0 |    53 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |   186 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22187 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   324 |   186 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |   132 |     0 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22187 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   324 |   186 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   405 |   132 |     0 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22244 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   267 |   129 |     0 |   503 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   348 |    75 |     0 |   449 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22291 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   220 |    82 |     0 |   456 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   301 |    28 |     0 |   402 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22338 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   173 |    35 |     0 |   409 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   254 |     0 |     0 |   355 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22426 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    85 |     0 |     0 |   321 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   166 |   506 |     0 |   267 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22447 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    64 |     0 |     0 |   300 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   145 |   485 |     0 |   246 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22462 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    49 |     0 |     0 |   285 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   130 |   470 |     0 |   231 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22466 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    45 |     0 |     0 |   281 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   126 |   466 |     0 |   227 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22467 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    44 |     0 |     0 |   280 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   125 |   465 |     0 |   226 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22468 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    43 |     0 |     0 |   279 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   124 |   464 |     0 |   225 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22476 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    35 |     0 |     0 |   271 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   116 |   456 |     0 |   217 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22503 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     8 |     0 |     0 |   244 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |    89 |   429 |     0 |   190 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22512 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |     0 |     0 |   235 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |    80 |   420 |     0 |   181 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22569 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |     0 |     0 |   178 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    23 |   363 |     0 |   124 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22657 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |     0 |     0 |    90 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   275 |   506 |    36 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22745 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |     0 |     0 |     2 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   187 |   418 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22846 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    86 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22880 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |    52 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22880 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   371 |    52 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 22991 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   449 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   506 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23025 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   415 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   472 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23073 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   367 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   178 |   424 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23073 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   367 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   424 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23130 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   310 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   367 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23218 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   222 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   279 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23306 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   134 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   191 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23407 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    33 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    90 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23441 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |    56 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23441 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   371 |    56 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23552 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   449 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   506 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23586 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   415 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   472 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23634 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   367 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   424 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23691 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   310 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   367 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23779 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   222 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   279 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23867 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   134 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   191 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23914 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   280 |    87 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |   144 |   371 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 23968 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    33 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    90 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24002 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   371 |    56 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24002 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   371 |    56 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24113 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   449 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   506 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24134 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    60 |   428 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   239 |   485 |   151 |   340 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24181 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    13 |   381 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   192 |   438 |   104 |   293 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24228 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   334 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   145 |   391 |    57 |   246 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24228 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   334 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   145 |   391 |    57 |   246 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24285 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    88 |   334 |     0 |   189 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24373 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   189 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   246 |   506 |   101 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24461 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   101 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   158 |   418 |    13 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24562 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    57 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24596 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   192 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   371 |    23 |   283 |   472 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24653 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   135 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   314 |     0 |   226 |   415 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24707 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    81 |   449 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   260 |   506 |   172 |   361 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24741 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    47 |   415 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   472 |   138 |   327 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24789 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   367 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   424 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24846 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   310 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   367 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 24934 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   222 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   279 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25022 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   134 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   191 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25123 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    33 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    90 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25123 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    33 |     0 |   560 |
+ \   >   \   >   \   >   \   ^   \ 
+ |       |       |       |  RGV  |
+ |             Busy              |
+ |   405 |    90 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25181 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   168 |     0 |     0 |   502 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   347 |    32 |   259 |   448 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25215 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   134 |     0 |     0 |   468 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   313 |     0 |   225 |   414 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25269 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    80 |     0 |     0 |   414 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   259 |   506 |   171 |   360 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25303 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    46 |     0 |     0 |   380 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   225 |   472 |   137 |   326 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25350 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |     0 |     0 |   333 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   425 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25407 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |     0 |     0 |   276 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   368 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25495 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |     0 |   560 |   188 |
+ \   >   \   >   \   ^   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Busy              |
+ |    33 |   280 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25552 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   358 |     0 |   503 |   131 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   223 |   449 |    77 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25640 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   270 |     0 |   415 |    43 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   361 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25687 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   223 |     0 |   368 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |    88 |   314 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25721 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   189 |     0 |   334 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   425 |    54 |   280 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25721 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   189 |   560 |   334 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   425 |    54 |   280 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25832 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    78 |   449 |   223 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   314 |   506 |   169 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25920 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   361 |   135 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   226 |   418 |    81 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 25967 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   314 |    88 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   179 |   371 |    34 |   459 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26024 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   257 |    31 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   122 |   314 |     0 |   402 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26112 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   169 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    34 |   226 |   506 |   314 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26133 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   394 |   148 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    13 |   205 |   485 |   293 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26167 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   360 |   114 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   171 |   451 |   259 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26242 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   285 |    39 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |    96 |   376 |   184 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26289 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   238 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |    49 |   329 |   137 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26310 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   217 |     0 |   560 |     0 |
+ \   >   \   >   \   ^   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Busy              |
+ |   438 |    28 |   308 |   116 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26367 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   160 |     0 |   503 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   381 |     0 |   251 |    59 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26442 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    85 |   560 |   428 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   306 |   506 |   176 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26499 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    28 |   503 |   371 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   249 |   449 |   119 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26533 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   469 |   337 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   215 |   415 |    85 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26580 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     0 |   422 |   290 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   168 |   368 |    38 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26580 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |   290 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   168 |   368 |    38 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26637 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |   233 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   111 |   311 |     0 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26725 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |   145 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    23 |   223 |   506 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26813 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |    57 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26860 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   280 |   142 |    10 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   459 |    88 |   371 |     0 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26914 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    88 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    34 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26935 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   205 |    67 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   384 |    13 |   296 |   485 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26969 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   171 |    33 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   350 |     0 |   262 |   451 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 26990 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   150 |    12 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   329 |     0 |   241 |   430 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27044 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    96 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   275 |   506 |   187 |   376 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27044 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    96 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   275 |   506 |   187 |   376 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27101 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    39 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   218 |   449 |   130 |   319 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27135 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |     5 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   184 |   415 |    96 |   285 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27182 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   137 |   368 |    49 |   238 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27239 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    80 |   311 |     0 |   181 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27273 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   469 |   331 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |    46 |   277 |     0 |   147 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27327 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   223 |   506 |    93 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27415 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |     5 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27516 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    88 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    34 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27605 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   137 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   316 |   506 |   228 |   417 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27662 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    80 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   259 |   449 |   171 |   360 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27696 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    46 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   225 |   415 |   137 |   326 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27743 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   368 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27800 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   311 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27888 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   223 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 27976 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   327 |   189 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |   135 |   418 |    46 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28077 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   226 |    88 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |    34 |   317 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28166 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   137 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   316 |   506 |   228 |   417 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28223 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    80 |   503 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   259 |   449 |   171 |   360 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28257 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    46 |   469 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   225 |   415 |   137 |   326 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28304 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   560 |   422 |     0 |     0 |
+ \   ^   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Busy              |
+ |   178 |   368 |    90 |   279 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28361 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   503 |   365 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   121 |   311 |    33 |   222 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28449 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   415 |   277 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    33 |   223 |   506 |   134 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28470 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   394 |   256 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |  RGV  |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |    12 |   202 |   485 |   113 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28491 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   373 |   235 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |  RGV  |       |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |     0 |   181 |   464 |    92 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28579 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   285 |   147 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |       |       |  RGV  |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   506 |    93 |   376 |     4 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28680 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |   184 |    46 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Move              |
+ \   >   \   >   \   >   \   >   \ 
+ |   405 |     0 |   275 |   506 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28768 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    96 |     0 |     0 |     0 |
+ \   >   \   >   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Free              |
+ \   >   \   >   \   >   \   >   \ 
+ |   317 |   506 |   187 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
+
+ Time 28768 Pipeline Status :
+ | CNC 2 | CNC 4 | CNC 6 | CNC 8 |
+ |    96 |   560 |     0 |     0 |
+ \   >   \   ^   \   >   \   >   \ 
+ |       |  RGV  |       |       |
+ |             Busy              |
+ |   317 |   506 |   187 |   418 |
+ | CNC 1 | CNC 3 | CNC 5 | CNC 7 |
