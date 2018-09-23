@@ -1,6 +1,9 @@
 # Dynamic Dispatch Strategy for RGV
 A Reinforcement Learning Implementation in Python for Mathematical Modelling, implemented by Q-Learning (<img src="https://latex.codecogs.com/gif.latex?\inline&space;\epsilon-Greedy" title="\epsilon-Greedy" />)
 
+# Basics
+* `/Bandit` Folder contains trainning algorithms.
+* `/Simulator` Folder contains simulator based on the selected strategy file (Q-Table).
 
 # Factory Setup
 ```
