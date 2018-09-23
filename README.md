@@ -4,6 +4,7 @@ A Reinforcement Learning Implementation in Python for Mathematical Modelling, im
 # Basics
 * `/Bandit` Folder contains trainning algorithms.
 * `/Simulator` Folder contains simulator based on the selected strategy file (Q-Table).
+* `/Results` Folder contains trained dataset and strategy.
 
 # Factory Setup
 ```
