@@ -1,6 +1,6 @@
 # Dynamic Dispatch Strategy for RGV
-Implemented by Q-Learning (<img src="https://latex.codecogs.com/gif.latex?\inline&space;\epsilon-Greedy" title="\epsilon-Greedy" />)
-A Reinforcement Learning Implementation in Python for Mathematical Modelling.
+A Reinforcement Learning Implementation in Python for Mathematical Modelling, implemented by Q-Learning (<img src="https://latex.codecogs.com/gif.latex?\inline&space;\epsilon-Greedy" title="\epsilon-Greedy" />)
+
 
 # Factory Setup
 ```
@@ -17,6 +17,7 @@ RGV Status Definition
  · 0 | RGV Currently `Free`
  · 1 | RGV Currently `Busy`
  · 2 | RGV Currently `Moving`
+ 
 Signal Definition
  · 0 | RGV `No Action`
  · 1 | RGV `Load`
@@ -30,12 +31,14 @@ CNC Status Definition
  · 1 | CNC Currently `FinishRequest`
  · 2 | CNC Currently `Busy`
   · 3 | CNC Currently `Broken`
+  
 CNC Finite State Machine
  --                          <-                                  <-
  | [ `Broken` · 2 ]           |                                   |
  · 0 [ `RGV Respond` · 1 ] -> · 2 [ `Finish Countdown` · 0/1 ] -> · 1 [ `RGV Respond` · 1 ] --
                               |                                                              |
                               --                               <-                           <-
+                              
 Signal Definition
  · 0 | RGV `No Action`
  · 1 | RGV `Load`
